@@ -6,7 +6,7 @@
  */
 #include <stdio.h>
 
-int main()
+int main32()
 {
 	/**
 	 * %u 无符号十进制
@@ -22,8 +22,8 @@ int main()
 	int a;
 	double b;
 	long c = 1l;
-	scanf("%d%lf%ld", &a, &b, &c);
-	printf("%d,%lf,%ld\n", a, b, c);
+	scanf("%d%lf%d", &a, &b, &c);
+	printf("%d,%lf,%d\n", a, b, c);
 
 	printf("%5d,%7.2f,%5s，%e,%o,%x\n",43,43.343,"dd",4343.44,44,44);
 
