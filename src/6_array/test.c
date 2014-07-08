@@ -27,7 +27,7 @@ void primeNum()
 
 
 
-int mainT() {
+int mainT6() {
 	primeNum();
 	return 0;
 }
