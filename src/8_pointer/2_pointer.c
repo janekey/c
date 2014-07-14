@@ -5,7 +5,7 @@
 
 #include <stdio.h>
 
-int main()
+int main82()
 {
 	int a[5] = {3,5,6,4};
 	int *p;
@@ -19,7 +19,7 @@ int main()
 	int i = 0;
 	for (i = 0; i < 5; i++)
 	{
-		printf("%d\t", a[i]);	//编译时a[i]就是按*(a+i)处理的
+		printf("%d\t", a[i]);	//编译时【a[i]就是按*(a+i)】处理的
 		printf("%d\t", *(a + i));
 		printf("%d\n", *(b + i));
 	}
