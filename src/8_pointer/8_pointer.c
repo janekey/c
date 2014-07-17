@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main88()
 {
 	int *p1, i;
 	p1 = malloc(5 * sizeof(int));	//分配100个字节长度的连续内存空间
