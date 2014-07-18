@@ -14,7 +14,7 @@ struct Node
 };
 
 
-int main()
+int main92()
 {
 	struct Node * creat();
 	void printNode(struct Node *h);
